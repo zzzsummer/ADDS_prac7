@@ -24,7 +24,17 @@ public:
 private:
    int partition(std::vector<int> &list, int start , int end )
    {
-       int pivot = list[start];
+        int pivot;
+        if (list.size() <= 3)
+        {
+            pivot = list[start];
+        }
+        else 
+        {
+            pivot = list.at(3);
+        }
+        
+        
        int count = 0;
 
         for(int i = start + 1; i <= end; i++)

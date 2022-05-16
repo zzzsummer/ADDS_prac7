@@ -32,12 +32,12 @@ int main()
     }
     else
     {
-        cout << "trun";
+        cout << "true";
     }
 
 
     
-    for(int i = 0; i < l1.size();i++ )
+    for(int i = 0; i < l1.size();i++)
     {
         cout << " " << l1.at(i);
     }
