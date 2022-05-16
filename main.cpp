@@ -11,7 +11,7 @@ int main()
 {
     vector<int> l1;
     int integer;
-    cout << "enter interger "<<endl;
+    //cout << "enter interger "<<endl;
     while (cin >> integer)
         {
             l1.push_back(integer);
@@ -28,11 +28,11 @@ int main()
     int k = r1.search(l1, 0);
     if ( k == 1)
     {
-        cout << "true";
+        cout << "false";
     }
     else
     {
-        cout << "false";
+        cout << "trun";
     }
 
 
